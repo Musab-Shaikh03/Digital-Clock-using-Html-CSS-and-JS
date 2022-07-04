@@ -19,7 +19,7 @@ setInterval(()=>{
         document.getElementById("date").style.color='white';
         document.getElementById("format").style.color='white';
     }
-    else if(a.getHours()>=14 && a.getHours()<=19){
+    else if(a.getHours()>14 && a.getHours()<=19){
         document.body.style.background="#FF7F50";
         document.getElementById("box").style.backgroundColor='black';
         document.getElementById("time").style.color='white';
