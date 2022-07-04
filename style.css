@@ -1,0 +1,36 @@
+body{
+    background: black;
+}
+.container{
+    /* display: grid;
+    place-items: center; */
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    min-height: 50%; 
+    background-color: gainsboro;
+    border-radius: 17em;  
+}
+
+.clock{
+    display: grid;
+    place-items: center;
+    padding-bottom: 4vh;
+    overflow: hidden;
+}
+
+#time{
+    font-size: 10rem;
+}
+
+#date{
+    font-size: 5rem;
+}
+
+#day{
+    font-size: 2.5rem;
+}
+
+#format{
+    font-size: 3ch;
+    padding-bottom: 2%;
+}
